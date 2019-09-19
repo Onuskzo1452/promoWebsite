@@ -1,0 +1,42 @@
+
+/* NAVIGATION BAR */
+/* when we have a class = we use the . in CSS */
+.topNav
+{
+    background-color: black;
+    overflow: hidden; /* Addresses errors with sizing */
+}
+.topNav a
+{
+    float: middle;
+    color: aqua;
+    text-align: center;
+    line-height: 30px;
+    padding: 18px 16px;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.topNav a:hover
+{
+    background-color: deepskyblue;
+    color: black;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("image/scr.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
